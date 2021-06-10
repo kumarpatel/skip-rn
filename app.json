@@ -1,0 +1,12 @@
+{
+  "name": "skip",
+  "displayName": "skip",
+  "expo": {
+    "name": "skip",
+    "slug": "skip",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
