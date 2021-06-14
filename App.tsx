@@ -9,19 +9,24 @@ import RestaurantDetailScreen from "./screens/restaurant-detail-screen";
 
 const Stack = createStackNavigator();
 
-function HomeScreen() {
-  return (
-    <View style={{ flex: 1, alignItems: "center", justifyContent: "center" }}>
-      <Text>Home Screen</Text>
-    </View>
-  );
-}
-
 export default function App() {
   return (
     <NavigationContainer>
       <Stack.Navigator>
-        <Stack.Screen name="Home" component={HomeScreen} />
+        <Stack.Screen
+          options={{
+            title: "Restaurant List",
+          }}
+          name="home"
+          component={RestaurantListScreen}
+        />
+        <Stack.Screen
+          options={{
+            title: "Restaurant Detail",
+          }}
+          name="detail"
+          component={RestaurantDetailScreen}
+        />
       </Stack.Navigator>
     </NavigationContainer>
   );

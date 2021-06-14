@@ -1,0 +1,307 @@
+{
+  "Area": "London",
+  "MetaData": {
+    "CanonicalName": "ec4m-london",
+    "District": "EC4M",
+    "Postcode": "EC4M",
+    "Area": "London",
+    "Latitude": 51.514227,
+    "Longitude": -0.098872,
+    "ResultCount": 1147,
+    "SearchedTerms": null,
+    "CollectionExperimentInjectedRestaurantIds": null,
+    "DeliveryArea": "EC4M"
+  },
+  "Restaurants": [
+    {
+      "Id": 80086,
+      "Name": "La Venice Pizzeria (Wood Fired)",
+      "UniqueName": "la-venice-pizzeria-southwark",
+      "Address": {
+        "City": "London",
+        "FirstLine": "242 Old Kent Road",
+        "Postcode": "SE1 5UB",
+        "Latitude": 51.489385,
+        "Longitude": -0.079313
+      },
+      "City": "London",
+      "Postcode": "SE1 5UB",
+      "Latitude": 0.0,
+      "Longitude": 0.0,
+      "Rating": {
+        "Count": 842,
+        "Average": 5.08,
+        "StarRating": 5.08
+      },
+      "RatingStars": 5.08,
+      "NumberOfRatings": 842,
+      "RatingAverage": 5.08,
+      "Description": "",
+      "Url": "https://www.just-eat.co.uk/restaurants-la-venice-pizzeria-southwark",
+      "LogoUrl": "http://d30v2pzvrfyzpo.cloudfront.net/uk/images/restaurants/80086.gif",
+      "IsTestRestaurant": false,
+      "IsHalal": false,
+      "IsNew": false,
+      "ReasonWhyTemporarilyOffline": "",
+      "DriveDistance": 1.9,
+      "DriveInfoCalculated": true,
+      "IsCloseBy": false,
+      "OfferPercent": 0.0,
+      "NewnessDate": "2018-05-21T16:17:20",
+      "OpeningTime": "2021-06-14T10:00:00Z",
+      "OpeningTimeUtc": null,
+      "OpeningTimeIso": "2021-06-14T10:00:00",
+      "OpeningTimeLocal": "2021-06-14T11:00:00",
+      "DeliveryOpeningTimeLocal": "2021-06-13T19:00:00",
+      "DeliveryOpeningTime": "2021-06-13T18:00:00Z",
+      "DeliveryOpeningTimeUtc": null,
+      "DeliveryStartTime": "2021-06-13T18:00:00Z",
+      "DeliveryTime": null,
+      "DeliveryTimeMinutes": null,
+      "DeliveryWorkingTimeMinutes": 45,
+      "DeliveryEtaMinutes": {
+        "Approximate": null,
+        "RangeLower": 35,
+        "RangeUpper": 50
+      },
+      "IsCollection": true,
+      "IsDelivery": true,
+      "IsFreeDelivery": false,
+      "IsOpenNowForCollection": true,
+      "IsOpenNowForDelivery": true,
+      "IsOpenNowForPreorder": false,
+      "IsOpenNow": true,
+      "IsTemporarilyOffline": false,
+      "DeliveryMenuId": 290813,
+      "CollectionMenuId": null,
+      "DeliveryZipcode": null,
+      "DeliveryCost": 1.0,
+      "MinimumDeliveryValue": 12.95,
+      "SecondDateRanking": 0.0,
+      "DefaultDisplayRank": 0,
+      "SponsoredPosition": 3,
+      "SecondDateRank": 0.0,
+      "Score": 1147.0,
+      "IsTemporaryBoost": false,
+      "IsSponsored": true,
+      "IsPremier": false,
+      "HygieneRating": null,
+      "ShowSmiley": false,
+      "SmileyDate": null,
+      "SmileyElite": false,
+      "SmileyResult": null,
+      "SmileyUrl": null,
+      "SendsOnItsWayNotifications": false,
+      "BrandName": "",
+      "IsBrand": false,
+      "LastUpdated": "2021-06-13T12:44:35.928549",
+      "Deals": [],
+      "Offers": [],
+      "Logo": [
+        {
+          "StandardResolutionURL": "http://d30v2pzvrfyzpo.cloudfront.net/uk/images/restaurants/80086.gif"
+        }
+      ],
+      "Tags": [],
+      "DeliveryChargeBands": [],
+      "CuisineTypes": [
+        {
+          "Id": 27,
+          "IsTopCuisine": true,
+          "Name": "Italian",
+          "SeoName": "italian"
+        },
+        {
+          "Id": 82,
+          "IsTopCuisine": true,
+          "Name": "Pizza",
+          "SeoName": "pizza"
+        }
+      ],
+      "Cuisines": [
+        {
+          "Name": "Italian",
+          "SeoName": "italian"
+        },
+        {
+          "Name": "Pizza",
+          "SeoName": "pizza"
+        }
+      ],
+      "ScoreMetaData": [
+        {
+          "Key": "Distance",
+          "Value": "1.9"
+        },
+        {
+          "Key": "SetName",
+          "Value": "Sponsored"
+        }
+      ],
+      "Badges": [],
+      "OpeningTimes": [],
+      "ServiceableAreas": []
+    },
+    {
+      "Id": 112766,
+      "Name": "Bengal Village - Best of Brick Lane",
+      "UniqueName": "bengal-village1-aldgate",
+      "Address": {
+        "City": "London",
+        "FirstLine": "75 Brick Lane Spitalfields London",
+        "Postcode": "E1 6QL",
+        "Latitude": 51.52012,
+        "Longitude": -0.072014
+      },
+      "City": "London",
+      "Postcode": "E1 6QL",
+      "Latitude": 0.0,
+      "Longitude": 0.0,
+      "Rating": {
+        "Count": 704,
+        "Average": 5.28,
+        "StarRating": 5.28
+      },
+      "RatingStars": 5.28,
+      "NumberOfRatings": 704,
+      "RatingAverage": 5.28,
+      "Description": "",
+      "Url": "https://www.just-eat.co.uk/restaurants-bengal-village1-aldgate",
+      "LogoUrl": "http://d30v2pzvrfyzpo.cloudfront.net/uk/images/restaurants/112766.gif",
+      "IsTestRestaurant": false,
+      "IsHalal": false,
+      "IsNew": false,
+      "ReasonWhyTemporarilyOffline": "",
+      "DriveDistance": 1.2,
+      "DriveInfoCalculated": true,
+      "IsCloseBy": false,
+      "OfferPercent": 10.0,
+      "NewnessDate": "2020-04-03T16:02:54.98414",
+      "OpeningTime": "2021-06-14T11:00:00Z",
+      "OpeningTimeUtc": null,
+      "OpeningTimeIso": "2021-06-14T11:00:00",
+      "OpeningTimeLocal": "2021-06-14T12:00:00",
+      "DeliveryOpeningTimeLocal": "2021-06-13T12:00:00",
+      "DeliveryOpeningTime": "2021-06-13T11:00:00Z",
+      "DeliveryOpeningTimeUtc": null,
+      "DeliveryStartTime": "2021-06-13T11:00:00Z",
+      "DeliveryTime": null,
+      "DeliveryTimeMinutes": null,
+      "DeliveryWorkingTimeMinutes": 40,
+      "DeliveryEtaMinutes": {
+        "Approximate": null,
+        "RangeLower": 30,
+        "RangeUpper": 45
+      },
+      "IsCollection": true,
+      "IsDelivery": true,
+      "IsFreeDelivery": true,
+      "IsOpenNowForCollection": true,
+      "IsOpenNowForDelivery": true,
+      "IsOpenNowForPreorder": false,
+      "IsOpenNow": true,
+      "IsTemporarilyOffline": false,
+      "DeliveryMenuId": 415786,
+      "CollectionMenuId": null,
+      "DeliveryZipcode": null,
+      "DeliveryCost": 0.0,
+      "MinimumDeliveryValue": 15.0,
+      "SecondDateRanking": 0.0,
+      "DefaultDisplayRank": 1,
+      "SponsoredPosition": 4,
+      "SecondDateRank": 0.0,
+      "Score": 1146.0,
+      "IsTemporaryBoost": false,
+      "IsSponsored": true,
+      "IsPremier": false,
+      "HygieneRating": null,
+      "ShowSmiley": false,
+      "SmileyDate": null,
+      "SmileyElite": false,
+      "SmileyResult": null,
+      "SmileyUrl": null,
+      "SendsOnItsWayNotifications": false,
+      "BrandName": "",
+      "IsBrand": false,
+      "LastUpdated": "2021-06-13T03:30:45.132134",
+      "Deals": [
+        {
+          "Description": "10% off when you spend £20",
+          "DiscountPercent": 10.0,
+          "QualifyingPrice": 20.0,
+          "OfferType": "Percent",
+          "OfferId": "340514686",
+          "CampaignId": null,
+          "ConsumerSegment": "All"
+        }
+      ],
+      "Offers": [
+        {
+          "OfferId": "340514686",
+          "Amount": 10.0,
+          "QualifyingValue": 20.0,
+          "MaxQualifyingValue": 0.0,
+          "Description": "10% off when you spend £20",
+          "Type": "Percent",
+          "ConsumerSegment": "All"
+        }
+      ],
+      "Logo": [
+        {
+          "StandardResolutionURL": "http://d30v2pzvrfyzpo.cloudfront.net/uk/images/restaurants/112766.gif"
+        }
+      ],
+      "Tags": [],
+      "DeliveryChargeBands": [],
+      "CuisineTypes": [
+        {
+          "Id": 31,
+          "IsTopCuisine": true,
+          "Name": "Indian",
+          "SeoName": "indian"
+        },
+        {
+          "Id": 85,
+          "IsTopCuisine": true,
+          "Name": "Curry",
+          "SeoName": "curry"
+        },
+        {
+          "Id": 100000,
+          "IsTopCuisine": true,
+          "Name": "Football deals",
+          "SeoName": "football-deals"
+        }
+      ],
+      "Cuisines": [
+        {
+          "Name": "Indian",
+          "SeoName": "indian"
+        },
+        {
+          "Name": "Curry",
+          "SeoName": "curry"
+        },
+        {
+          "Name": "Football deals",
+          "SeoName": "football-deals"
+        }
+      ],
+      "ScoreMetaData": [
+        {
+          "Key": "Distance",
+          "Value": "1.2"
+        },
+        {
+          "Key": "SetName",
+          "Value": "Sponsored"
+        }
+      ],
+      "Badges": [],
+      "OpeningTimes": [],
+      "ServiceableAreas": []
+    }
+  ],
+  "Dishes": [],
+  "ShortResultText": "EC4M"
+}

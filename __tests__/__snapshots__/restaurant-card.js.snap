@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Snapshot - RestaurantCard 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-start",
+        "backgroundColor": "#fff",
+        "borderColor": "grey",
+        "borderRadius": 5,
+        "borderWidth": 2,
+        "flex": 1,
+        "justifyContent": "center",
+        "marginLeft": 5,
+        "marginRight": 5,
+        "marginTop": 10,
+        "padding": 10,
+      }
+    }
+  >
+    <Image
+      source={
+        Object {
+          "uri": "http://d30v2pzvrfyzpo.cloudfront.net/uk/images/restaurants/80086.gif",
+        }
+      }
+      style={
+        Object {
+          "height": 70,
+          "width": 70,
+        }
+      }
+    />
+    <View
+      style={
+        Object {
+          "display": "flex",
+          "flexDirection": "column",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Text>
+          Name: 
+          La Venice Pizzeria (Wood Fired)
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Text>
+          Rating: 
+          5.08
+        </Text>
+      </View>
+      <View
+        style={
+          Object {
+            "display": "flex",
+            "flexDirection": "row",
+          }
+        }
+      >
+        <Text>
+          Cuisine Types:
+           
+          Italian | Pizza
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
