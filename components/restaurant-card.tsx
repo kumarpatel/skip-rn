@@ -13,7 +13,7 @@ import { Cuisine, Rating, Restaurant } from "../types/types";
 
 interface RestaurantCardProps {
   restaurant: Restaurant;
-  onPress: () => void;
+  onPress?: () => void;
 }
 
 export default function RestaurantCard({

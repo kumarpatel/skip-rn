@@ -76,7 +76,9 @@ it("shows all correct restaurants on search", async () => {
   );
   await fireEvent.press(getByTestId("search-restaurants-button"));
 
-  await waitFor(() => expect(getAllByText("Name: Forno Pizza").length).toBe(1));
+  await waitFor(() =>
+    expect(getAllByText("Name: La Venice Pizzeria (Wood Fired)").length).toBe(1)
+  );
   await waitFor(() => expect(getAllByText("Rating: 5.08").length).toBe(1));
   await waitFor(() =>
     expect(getAllByText("Cuisine Types: Italian | Pizza").length).toBe(1)

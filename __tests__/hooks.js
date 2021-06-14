@@ -27,12 +27,6 @@ jest.mock("@react-navigation/native", () => {
   };
 });
 
-jest.mock("getRestaurantsByPostcode", () => {
-  return new Promise((resolve) => {
-    resolve(mockData);
-  });
-});
-
 describe("useRestaurantSearchByOutcode tests", () => {
   it("verifies that it returns correct number of restaurants given a valid search term", () => {
     const { restaurants } = renderHook(() =>
