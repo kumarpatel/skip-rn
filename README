@@ -1,0 +1,7 @@
+
+# Build & run locally
+Git clone project
+From project dir, `yarn install`
+iOS: `yarn ios` or 
+Android: `yarn android`
+Hit play
