@@ -20,25 +20,6 @@ export default function RestaurantCard({
   restaurant,
   onPress,
 }: RestaurantCardProps) {
-  const navigation = useNavigation();
-  //   const [restaurants, setRestaurants] = useState([]);
-  //   const onDetailPress = useCallback(() => {
-  //     navigation.navigate("privacypolicy");
-  //   });
-
-  //   const renderRestaurant = useCallback(({ item }) => {
-  //     // console.warn(item);
-  //     return <Text key={item.Id}>{item.Name}</Text>;
-  //   });
-
-  useEffect(() => {
-    // getRestaurantsByPostcode("EC4M")
-    //   .then((data) => {
-    //     setRestaurants(data.Restaurants);
-    //   })
-    //   .catch((e) => console.error(e));
-  }, []);
-
   return (
     <Pressable onPress={onPress}>
       <View style={styles.container}>
@@ -53,15 +34,14 @@ export default function RestaurantCard({
           <View style={styles.col}>
             <Text>
               Cuisine Types:{" "}
-              {restaurant.CuisineTypes.map(({ Name }: Cuisine) => Name).join(
-                " | "
-              )}
+              {restaurant.CuisineTypes
+                ? restaurant.CuisineTypes.map(({ Name }: Cuisine) => Name).join(
+                    " | "
+                  )
+                : "N/A"}
             </Text>
           </View>
         </View>
-        {/* <Pressable onPress={onDetailPress}>
-        <Text>Detail</Text>
-      </Pressable> */}
       </View>
     </Pressable>
   );

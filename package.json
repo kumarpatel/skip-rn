@@ -1,11 +1,12 @@
 {
   "main": "index.js",
   "scripts": {
-    "android": "react-native run-android",
-    "ios": "react-native run-ios",
+    "android": "npx react-native run-android",
+    "ios": "npx react-native run-ios",
     "web": "expo start --web",
     "start": "react-native start",
     "test": "jest",
+    "storybook-ui": "STORYBOOK=true npx react-native start --reset-cache",
     "storybook": "start-storybook -p 7007",
     "build-storybook": "build-storybook"
   },
@@ -40,6 +41,7 @@
     "@types/react": "~16.9.35",
     "@types/react-native": "~0.63.2",
     "babel-loader": "^8.2.2",
+    "babel-plugin-transform-inline-environment-variables": "^0.4.3",
     "babel-preset-expo": "8.3.0",
     "jest": "^27.0.4",
     "jest-expo": "^41.0.0",

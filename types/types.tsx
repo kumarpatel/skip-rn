@@ -24,7 +24,7 @@ export interface Restaurant {
   Id: number;
   Name: string;
   Rating: Rating;
-  CuisineTypes: [Cuisine];
+  CuisineTypes?: [Cuisine];
   LogoUrl: string;
-  Deals: [Deal];
+  Deals?: [Deal];
 }
