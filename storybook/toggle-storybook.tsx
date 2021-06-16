@@ -10,7 +10,7 @@ export function ToggleStorybook(props) {
 
   useEffect(() => {
     if (__DEV__ && DevSettings) {
-      setShowStorybook(true);
+      setShowStorybook(false);
 
       // Add our toggle command to the menu
       DevSettings.addMenuItem("Toggle Storybook", () => {
